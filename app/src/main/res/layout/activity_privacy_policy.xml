@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PrivacyPolicyActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<TextView
+    android:textSize="15dp"
+    android:textColor="#DE000000"
+    android:paddingHorizontal="10dp"
+    android:paddingVertical="5dp"
+    android:justificationMode="inter_word"
+    android:textAlignment="viewStart"
+    android:text="This is the Privacy Policy of 77 Laundry which outlines our commitment to our users in terms of collection and use of personal information through its website and mobile application.\n\n
+ For 77 Laundry to provide service to its users, we will need to collect some personal information about you. This information may include your name, address, mobile number, email address and password details for 77 Laundry services. You may also choose to provide similar details of your authorised representatives such as family member, insurance provider and aged care provider.\n\n
+
+ If you are unwilling to provide that information, we may not be able to provide you with the service you wish to acquire.\n\n
+
+ 77 Laundry collects personal information about you or your authorised representative register or commence registering an account for a service through Mobile App, website or over the phone.\n\n
+
+ 77 Laundry will only use your personal information for the following purposes:\n\n
+
+-  To service the placed order including pickup, delivery and providing the updates\n
+- To send email for invoice and requesting feedback on the service\n
+- To respond to the enquiries or questions\n
+- To communicate with you via phone call, email or SMS.\n
+- We continuously improve our services to our clients and we may update this policy from time to time. Any changes to the policy will be updated on 77 Laundry website.\n
+- To comply with requests for information issued to 77 Laundry by agencies and courts that are entitled to obtain this information under Australian law\n
+
+If you do not wish to receive marketing materials from 77 Laundry about its products and services, you may send an email to hello@77laundry.com.au with your full name and address\n\n
+
+77 Laundry continuously improves its products and services and we may update this policy from time to time. Any changes to this policy will be updated on the 77 Laundry website. You acknowledge and agree that it is your responsibility to review this privacy policy periodically\n\n
+
+If you have any questions about the Privacy Policy, please contact us by sending an email to hello@77laundry.com.au\n\n
+
+"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+    </ScrollView>
+</RelativeLayout>

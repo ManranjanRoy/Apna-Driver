@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4f09b1</color>
+    <color name="colorPrimaryDark">#4f09b1</color>
+    <color name="colorAccent">#001073</color>
+    <color name="red">#f20000</color>
+    <color name="dashbord_box">#4f09b1</color>
+    <color name="green">#009688</color>
+    <color name="black">#000000</color>
+    <color name="white">#fff</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="tab_disable">#77979797</color>
+    <color name="tab_enable">#FFFFFF</color>
+    <color name="tab_checked">#fff</color>
+    <color name="tab_unchecked">#6bffffff</color>
+    <color name="textcolor">#042B8A</color>
+    <color name="boxcolor">#4f09b1</color>
+    <color name="faqtextcolor">#F79C65</color>
+</resources>

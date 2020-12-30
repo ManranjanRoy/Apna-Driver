@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_marginTop="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/servicename"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_sizeheadbig"
+                android:text="Car Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/cancel"
+                android:layout_alignParentEnd="true"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text="Cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Booking Status  :  "/>
+            <TextView
+                android:id="@+id/servicestatus"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_sizehead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Driver Name :  "/>
+            <TextView
+                android:id="@+id/drivername"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_sizehead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount :  "/>
+            <TextView
+                android:id="@+id/amount"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_sizehead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Driver Name :  "/>
+            <TextView
+                android:autoLink="phone"
+                android:id="@+id/drivernumber"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_sizehead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 99966633325"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pickup Location: "/>
+            <TextView
+                android:paddingLeft="3dp"
+                android:id="@+id/pickupdate"
+                android:textSize="@dimen/text_sizehead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tuesday 20 june "/>
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/pickuptime"
+                android:paddingHorizontal="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5:00-5:30 PM"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Destination : "/>
+            <TextView
+                android:paddingLeft="3dp"
+                android:id="@+id/destination"
+                android:textSize="@dimen/text_sizehead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tuesday 20 june "/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Journey Date :"
+                android:textSize="@dimen/text_sizehead" />
+            <TextView
+                android:paddingLeft="3dp"
+                android:id="@+id/deliverydate"
+                android:textSize="@dimen/text_sizehead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tuesday 21 june"/>
+            <TextView
+                android:id="@+id/deliverytime"
+                android:paddingHorizontal="10dp"
+                android:textSize="@dimen/text_sizehead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5:00-5:30 PM"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

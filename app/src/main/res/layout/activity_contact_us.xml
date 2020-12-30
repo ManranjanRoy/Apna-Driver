@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.manoranjan.apnadriver.Activity.ContactUsActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/roundedcorner"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:paddingTop="5dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/black"
+                android:paddingBottom="50dp"
+                android:background="@drawable/pick_up_grey_box"
+                android:id="@+id/comment"
+                android:hint="Comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </RelativeLayout>
+       <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/login_btn"
+            android:text="Submit"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</RelativeLayout>

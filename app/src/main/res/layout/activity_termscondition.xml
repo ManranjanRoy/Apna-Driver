@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.TermsconditionActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="15dp"
+            android:textColor="#DE000000"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"
+            android:justificationMode="inter_word"
+            android:textAlignment="viewStart"
+           android:text="77 Laundry services are provided subject to your compliance and acceptance with the below terms and conditions:\n\n
+
+1. You must be at least 18 years of age to use the service.\n
+2. Any items that cannot be washed in a washing machine or tumble-dry, must not be sent.\n
+3. Doonas, blankets and large items are charged separately. \n
+4. If you are requesting the service on behalf of someone else then it is your responsibility to make sure you have the required consent.\n
+5. You agree that 77 Laundry may contact you by phone call, email or SMS at any of the phone number or email address provided by you or on your behalf.\n
+6. You are responsible for obtaining the data network access necessary to use the service. Your mobile network’s data and messaging rates and fees may apply if you access or use the services from your device.\n
+7. You understand that use of our services may result in charges to you for the services or goods you receive. \n
+8. 77 Laundry shall not be liable for incidental or consequential damages including lost profit, lost data resulting from any use of the services.\n
+9. 77 Laundry shall not be liable for any damages to your clothes including bleed, shrink or otherwise change as a result of service. \n
+10. 77 Laundry is not responsible for lost items unless proven that we were responsible for the loss. \n
+11. Any lost items must be reported within 2 business days. \n
+12. 77 Laundry is not responsible for loss or damage to any personal or non-cleanable items left in the clothing.\n
+13. 77 Laundry is not responsible for any loss, damage or theft of items left unattended for pick-up or drop-off.\n
+14. 77 Laundry reserves the right to refuse customers or refuse cleaning any item. \n
+15. 77 Laundry does not guarantee removal of all stains. \n
+16. The invoice will be sent via email and it is the responsibility of the customer to check their inbox including the spam folder.\n
+17. Customers must pay the invoice charges within 24 hours of receiving the invoice. \n\n"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </ScrollView>
+</RelativeLayout>

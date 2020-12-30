@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:visibility="visible"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:gravity="center_vertical"
+                        android:visibility="visible"
+                        android:text="@string/app_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+                    <ImageView
+                        android:layout_margin="5dp"
+                        android:visibility="gone"
+                        app:srcCompat="@drawable/ic_launcher_foreground"
+                        android:layout_width="170dp"
+                        android:layout_height="50dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/cart"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/notification"
+                        android:clickable="true"
+                        android:layout_marginRight="8dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/searchwhite"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        tools:ignore="VectorDrawableCompat" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <LinearLayout
+            android:visibility="gone"
+            android:background="@color/colorPrimary"
+            android:id="@+id/searchlayout"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:id="@+id/serachtext"
+                android:gravity="center_vertical"
+                android:textSize="14dp"
+                android:layout_margin="5dp"
+                android:paddingLeft="20dp"
+                android:drawablePadding="10dp"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/search"
+                android:background="@drawable/search_border"
+                android:hint="Search for Products"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"/>
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <include layout="@layout/content_main" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

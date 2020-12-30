@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_marginBottom="3dp"
+        app:cardCornerRadius="5dp"
+        android:id="@+id/card1"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
+                    <ImageView
+                        android:id="@+id/pimg"
+                        android:layout_width="100dp"
+                        android:layout_height="170dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/dashboard_managebooking_icon2" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp">
+
+                    <ImageView
+                        android:visibility="visible"
+                        android:id="@+id/pwishlist"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/dashboard_managebooking_icon2" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:background="@android:color/holo_orange_dark"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/pstatus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:text="Best Seller"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textSize="@dimen/text_sizehead"
+                    android:textStyle="bold"
+                    android:id="@+id/pname"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:text=" Relame 5 (Green 6 gb Ram )"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:visibility="gone"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"
+                    android:id="@+id/pcat"
+                    android:text=" ( Sniker Fabric )"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:visibility="gone"
+                    android:textSize="@dimen/text_size"
+                    android:id="@+id/pqty"
+                    android:textColor="@color/black"
+                    android:text=" 5 Kg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RelativeLayout
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp">
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:visibility="gone"
+                                android:layout_gravity="center"
+                                android:text="Price :  "
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="\u20B9"
+                                android:textColor="@color/textcolor"
+                                />
+                            <TextView
+                                android:textStyle="bold"
+                                android:textSize="20dp"
+                                android:id="@+id/pprice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text=" 12,000"
+                                android:textColor="@color/textcolor"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:visibility="gone"
+                            android:gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:visibility="visible"
+                                android:layout_gravity="center"
+                                android:text="  "
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+
+                                android:textSize="@dimen/text_sizehead"
+                                android:id="@+id/pprice2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="\u20B9 500.00 "/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

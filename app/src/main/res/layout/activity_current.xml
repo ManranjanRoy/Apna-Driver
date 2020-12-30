@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F5F5"
+    android:orientation="vertical"
+    tools:context=".Activity.CurrentBookingActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/r2"
+        android:layout_below="@id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <!--<LinearLayout
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_sizeheadbig"
+                android:text="Dry Wash "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_alignParentEnd="true"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text="Cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service Status  :  "/>
+            <TextView
+                android:textStyle="bold"
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pick up  : "/>
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tuesday 20 june "/>
+            <TextView
+                android:paddingHorizontal="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/green"
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5:00-5:30 PM"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delivery : "/>
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tuesday 21 june"/>
+            <TextView
+                android:paddingHorizontal="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/green"
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5:00-5:30 PM"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_sizeheadbig"
+                android:text="Bag Wash "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:visibility="gone"
+                android:layout_alignParentEnd="true"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text="Cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service Status  :  "/>
+            <TextView
+                android:textStyle="bold"
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Completed"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pick up  : "/>
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tuesday 20 june "/>
+            <TextView
+                android:paddingHorizontal="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/green"
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5:00-5:30 PM"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delivery : "/>
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tuesday 21 june"/>
+            <TextView
+                android:paddingHorizontal="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/green"
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5:00-5:30 PM"/>
+
+        </LinearLayout>
+    </LinearLayout>-->
+
+</LinearLayout>
